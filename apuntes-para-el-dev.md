@@ -269,3 +269,8 @@ Recomendaciones de demo:
 3. Abre Swagger en una pestaña para mostrar la API REST limpia.
 4. Abre el reporte de cobertura HTML en otra pestaña para mostrar el ≥80%.
 5. Muestra que **un solo `docker-compose up`** levanta todo — es el bonus point más visible.
+
+
+- Frontend: http://localhost:5173
+  - API: http://localhost:8080
+  - Swagger: http://localhost:8080/swagger

@@ -1,0 +1,1 @@
+dotnet test tests/Northwind.Tests/ --filter "FullyQualifiedName~PUT_order_returns_200_with_updated_data" --logger "console;verbosity=detailed" 2>&1 | grep -i "exception\|error\|500\|internal" | head -30

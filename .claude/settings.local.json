@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir C:/final_rsm/backend)",
+      "Bash(dotnet new *)",
+      "Bash(dotnet sln *)",
+      "Bash(dotnet add *)",
+      "Bash(dotnet build *)",
+      "Bash(pnpm --version)",
+      "Bash(mkdir C:/final_rsm/frontend)",
+      "Bash(pnpm create *)",
+      "Bash(pnpm add *)",
+      "Bash(pnpm build *)",
+      "Bash(dotnet test *)"
+    ]
+  }
+}

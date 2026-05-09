@@ -1,0 +1,37 @@
+# Environment
+.env
+.env.example
+
+# Backend build artifacts
+backend/bin/
+backend/obj/
+backend/**/bin/
+backend/**/obj/
+backend/*.user
+backend/*.suo
+backend/.vs/
+backend/TestResults/
+backend/coverage/
+
+# Frontend build artifacts
+frontend/dist/
+frontend/node_modules/
+frontend/.pnpm-store/
+frontend/coverage/
+
+# Docker
+.docker-data/
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+apuntes-para-el-dev.md

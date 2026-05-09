@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Northwind.Api/Northwind.Api.csproj" />
+    <Project Path="src/Northwind.Application/Northwind.Application.csproj" />
+    <Project Path="src/Northwind.Domain/Northwind.Domain.csproj" />
+    <Project Path="src/Northwind.Infrastructure/Northwind.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Northwind.Tests/Northwind.Tests.csproj" />
+  </Folder>
+</Solution>
