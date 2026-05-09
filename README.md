@@ -1,6 +1,7 @@
 # Northwind Order Management System
+## The video link is in the video folder
 
-Full-stack order management application built on the Northwind sample database. Provides a paginated order list, create/edit form with Google Maps address validation, charts, and Excel/PDF export.
+Full-stack order management application built on the Northwind sample database. Provides a paginated order list, create/edit form with Google Maps address validation, charts, and Excel/PDF export. 
 
 ## Tech Stack
 
@@ -41,7 +42,7 @@ cp .env.example .env
 Edit `.env` and fill in your values:
 
 ```env
-DB_SA_PASSWORD=YourStrongPassword123!
+DB_SA_PASSWORD=YourStrongPassword
 DB_NAME=Northwind
 GOOGLE_MAPS_API_KEY=AIzaSy_YOUR_BACKEND_KEY
 VITE_GOOGLE_MAPS_API_KEY=AIzaSy_YOUR_FRONTEND_KEY

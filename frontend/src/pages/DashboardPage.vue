@@ -94,7 +94,7 @@ const monthOptions = [
   { label: 'November', value: 11 }, { label: 'December', value: 12 },
 ]
 
-const weekOptions = Array.from({ length: 52 }, (_, i) => i + 1)
+const weekOptions = [1, 2, 3, 4, 5]
 
 const regionOptions = computed(() => lookups.regions)
 

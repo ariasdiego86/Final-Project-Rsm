@@ -111,11 +111,8 @@ public class OrderRepository : IOrderRepository
 
         if (filter.Week.HasValue)
         {
-            // Uses SQL DATEPART(week, ...) via EF.Functions.DatePart (SQL Server specific)
             query = query.Where(o => o.OrderDate.HasValue &&
-                EF.Functions.DateDiffWeek(
-                    new DateTime(o.OrderDate!.Value.Year, 1, 1),
-                    o.OrderDate.Value) + 1 == filter.Week.Value);
+                (o.OrderDate.Value.Day - 1) / 7 + 1 == filter.Week.Value);
         }
 
         if (!string.IsNullOrWhiteSpace(filter.Region))
