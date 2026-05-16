@@ -1,6 +1,7 @@
 services:
   db:
     image: mcr.microsoft.com/mssql/server:2022-latest
+    platform: linux/amd64
     container_name: northwind-db
     environment:
       SA_PASSWORD: ${DB_SA_PASSWORD}
@@ -21,6 +22,7 @@ services:
 
   db-init:
     image: mcr.microsoft.com/mssql/server:2022-latest
+    platform: linux/amd64
     container_name: northwind-db-init
     depends_on:
       db:
